@@ -89,3 +89,6 @@ ul.menu {
 ul.menu_item_child {
   list-style: none;
 }
+ul {
+  list-style: none;
+}
