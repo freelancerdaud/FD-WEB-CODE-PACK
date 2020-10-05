@@ -41,7 +41,10 @@
   cursor:pointer;
   font-size: 12px;
 }
-.menu_item ul li.check span{color: #37f;}
+.menu_item ul li.check span {
+  color: #007bff;
+  font-weight: 900;
+}
 .menu_item.menu_show ul{display: block;}
 .menu_item.menu_show i.tri_icon{transform: rotate(90deg);}
 
@@ -51,6 +54,7 @@
   background-color: #e4e4e4;
   border-left: 2px solid #ca0303;
   margin-top: 100px;
+  border-radius: 0px 0px 10px 0px;
 }
 
 .main_con .main_con_item{display: none;}
@@ -78,6 +82,8 @@
   margin-top: 50px;
   border-left: 2px solid #ca0303;
   background-color: #708634;
+  width: 96.5%;
+  border-radius: 0px 10px 0px 0px;
 }
 
 .breadcrumb a{
@@ -109,4 +115,7 @@ ul {
 .sidebar {
   margin-top: 100px;
   padding-top: 12px;
+}
+ul.menu_item_child {
+  padding-left: 25px;
 }

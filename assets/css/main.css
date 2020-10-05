@@ -179,8 +179,18 @@ h6 {
   color: #000;
 }
 
-
-
+.footer_section {
+  background: #708634;
+  text-align: center;
+  
+}
+.footer_footer{
+  height: 50px;
+}
+.footer_footer h5{
+  margin-top: 20px;
+  color: #fff;
+}
 
 
 

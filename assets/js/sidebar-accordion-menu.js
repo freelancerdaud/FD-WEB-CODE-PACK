@@ -26,6 +26,6 @@ $(function () {
     })
     !(function() {
         var h = window.innerHeight||document.body.clientHeight||document.documentElement.clientHeight;
-        $('.main_wrapper,.main_con').css({'height':(h-110) + 'px' })
+        $('.main_wrapper,.main_con').css({'height':(h-200) + 'px' })
     })()
 })
